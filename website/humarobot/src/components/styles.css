@@ -1,0 +1,182 @@
+/* Chatbot Styles */
+.chatbot-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chat-header h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.chat-header p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+.question-input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  min-height: 100px;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.question-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.ask-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.ask-button:hover {
+  background: #2980b9;
+}
+
+.ask-button:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
+.answer-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  border-left: 4px solid #3498db;
+}
+
+.answer-section h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.answer-text {
+  line-height: 1.6;
+  color: #34495e;
+  white-space: pre-wrap;
+}
+
+.sources-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.sources-section h4 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.source-list {
+  list-style: none;
+  padding: 0;
+}
+
+.source-list li {
+  background: white;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.examples-section {
+  margin-top: 30px;
+}
+
+.examples-section h4 {
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.example-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.example-btn {
+  padding: 8px 16px;
+  background: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  color: #2c3e50;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.example-btn:hover {
+  background: #d5dbdb;
+  transform: translateY(-2px);
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #7f8c8d;
+}
+
+.spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  background: #ffeaa7;
+  padding: 15px;
+  border-radius: 8px;
+  color: #d63031;
+  border-left: 4px solid #d63031;
+  margin-top: 20px;
+}
