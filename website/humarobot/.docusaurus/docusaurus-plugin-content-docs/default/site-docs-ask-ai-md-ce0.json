@@ -1,0 +1,23 @@
+{
+  "id": "ask-ai",
+  "title": "Ask the AI Textbook",
+  "description": "🤖 Ask Questions from the Physical AI & Robotics Textbook",
+  "source": "@site/docs/ask-ai.md",
+  "sourceDirName": ".",
+  "slug": "/ask-ai",
+  "permalink": "/docs/ask-ai",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ask-ai.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ask-ai",
+    "title": "Ask the AI Textbook"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

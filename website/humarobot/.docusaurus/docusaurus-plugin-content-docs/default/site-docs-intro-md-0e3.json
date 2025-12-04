@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Physical AI & Humanoid Robotics Textbook",
+  "description": "Welcome to the comprehensive textbook on Physical AI and Humanoid Robotics. This book will teach you how to build intelligent robots that can interact with the physical world.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Module 1: ROS 2 - Robot Operating System",
+    "permalink": "/docs/module1-ros2"
+  }
+}

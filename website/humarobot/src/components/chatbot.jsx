@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import './styles.css';
 
+
+
 function AskAIPage() {
   const [question, setQuestion] = useState('');
   const [answer, setAnswer] = useState('');
